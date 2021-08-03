@@ -7,6 +7,11 @@ import (
 	"strings"
 )
 
+func searchCommand(args []string) bool {
+	search(args)
+	return true
+}
+
 var userList []string
 
 func search(args []string) {
@@ -51,4 +56,3 @@ func contains(s []string, e string) bool {
 	}
 	return false
 }
-
