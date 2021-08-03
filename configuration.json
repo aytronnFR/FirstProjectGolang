@@ -1,0 +1,4 @@
+{
+ "api-url": "https://beta.onestory.fr/api/isbeta",
+ "mongo-uri": "mongodb://root:root@localhost:27017/admin?retryWrites=true\u0026w=majority"
+}
